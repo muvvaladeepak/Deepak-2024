@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/muvvaladeepak/Deepak-2024/static/css/main.8e5f1a6c.css",
+    "main.js": "/muvvaladeepak/Deepak-2024/static/js/main.a1c1256c.js",
+    "static/js/453.cfb44d1c.chunk.js": "/muvvaladeepak/Deepak-2024/static/js/453.cfb44d1c.chunk.js",
+    "static/media/instagram.png": "/muvvaladeepak/Deepak-2024/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/science.png": "/muvvaladeepak/Deepak-2024/static/media/science.4ff31392440d47d69d5d.png",
+    "static/media/mysql.png": "/muvvaladeepak/Deepak-2024/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/click.png": "/muvvaladeepak/Deepak-2024/static/media/click.655d54c71f9bde647248.png",
+    "static/media/java.png": "/muvvaladeepak/Deepak-2024/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/social.png": "/muvvaladeepak/Deepak-2024/static/media/social.d86774603b1727b8f4bb.png",
+    "static/media/github (1).png": "/muvvaladeepak/Deepak-2024/static/media/github (1).05f6c17b8cd04c28456f.png",
+    "static/media/css-3.png": "/muvvaladeepak/Deepak-2024/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/muvvaladeepak/Deepak-2024/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/linkedin.png": "/muvvaladeepak/Deepak-2024/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/phone-call.png": "/muvvaladeepak/Deepak-2024/static/media/phone-call.20a0ed4204215b0502d9.png",
+    "static/media/js.png": "/muvvaladeepak/Deepak-2024/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/muvvaladeepak/Deepak-2024/index.html",
+    "main.8e5f1a6c.css.map": "/muvvaladeepak/Deepak-2024/static/css/main.8e5f1a6c.css.map",
+    "main.a1c1256c.js.map": "/muvvaladeepak/Deepak-2024/static/js/main.a1c1256c.js.map",
+    "453.cfb44d1c.chunk.js.map": "/muvvaladeepak/Deepak-2024/static/js/453.cfb44d1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e5f1a6c.css",
+    "static/js/main.a1c1256c.js"
+  ]
+}
