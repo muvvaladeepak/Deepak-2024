@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.About {
+  font-family: "Archivo Black", sans-serif;
+  background: #f4d03f;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.words {
+  color: #f4d03f;
+  font-size: 0;
+  line-height: 1.5;
+}
+
+.words span {
+  font-size: 5rem;
+  display: inline-block;
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
+}
+
+.words span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.words span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.words span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.words span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+.words span:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+.words span:nth-child(7) {
+  animation-delay: 3s;
+}
+
+/* summary */
+
+.summary{
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);  
+  padding: 10vh 10vw;
+  color:whitesmoke;
+  font-family: 'Gochi Hand', cursive;
+  text-align: left;
+  font-size: 100%; 
+  
+}
+
+/* Education */
+
+.Education{
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  padding: 10vh 10vw;
+  color: whitesmoke;
+  font-family: 'Gochi Hand', cursive;
+  text-align: left;
+  font-size: 150%; 
+  
+}
+.Experience{
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);;
+  padding: 10vh 10vw;
+  color: black;
+  font-family: 'Gochi Hand', cursive;
+  text-align: left;
+  font-size: 150%; 
+  
+}
+.phone{
+  width: 100px;
+  height: 100px;
+  
+  }
+  .gmail{
+    width: 100px;
+  height: 100px;
+  }
+  .tex{
+    font-size: small;
+  }
+  .tex1{
+    font-size: medium;
+  }
+
+/*Skills*/
+.icons{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.Skills{
+  background: #7b4397;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10vh 10vw;
+  color:white;
+  font-family: 'Gochi Hand', cursive;
+  text-align: left;
+  font-size: 150%; 
+}
+.Contact{
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10vh 10vw;
+    color: white;
+  font-family: 'Gochi Hand', cursive;
+  text-align: left;
+  font-size: 150%;
+  
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 40px;
+  width: fit-content;
+}
+
